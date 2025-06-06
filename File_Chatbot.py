@@ -85,7 +85,7 @@ if "messages" not in st.session_state:
 with st.sidebar:
     st.markdown("""
     <div style='text-align: center; margin-bottom: 20px;'>
-        <h3 style='color: #1f2937;'>📁 File Upload</h3>
+        <h3 style='color: red;'>📁 File Upload</h3>
     </div>
     """, unsafe_allow_html=True)
 
@@ -107,8 +107,8 @@ with st.sidebar:
 st.markdown(
     """
     <div style='text-align: center; margin-bottom: 30px;'>
-        <h1 style='color: #1f2937;'>📁 File Chat Assistant</h1>
-        <p style='color: #6b7280;'>Ask questions about your uploaded file</p>
+        <h1 style='color: red;'>📁 File Chat Assistant</h1>
+        <p style='color: green;'>Ask questions about your uploaded file</p>
     </div>
     """, 
     unsafe_allow_html=True
