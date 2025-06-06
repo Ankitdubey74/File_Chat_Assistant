@@ -2,3 +2,6 @@ streamlit
 together 
 pandas
 openpyxl
+pdfplumber
+python-docx
+together
